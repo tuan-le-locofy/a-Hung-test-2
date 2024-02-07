@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import HotelsPage from "./pages/HotelsPage";
+import ResultsPage from "./pages/ResultsPage";
 
 function App() {
   const action = useNavigationType();
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<HotelsPage />} />
+      <Route path="/" element={<ResultsPage />} />
     </Routes>
   );
 }
